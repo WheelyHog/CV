@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#root {
+    width: 1280px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    border: 1px solid gray;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+/*-----------------------aside--------------------*/
+.aside {
+    background: #054276;
+    color: #fff;
+    border-radius: 8px 0 0 8px;
+}
+
+.img-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.my-photo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.block-header {
+    background: #08345d;
+    padding: 5px 30px;
+}
+
+.contacts-list {
+    padding: 5px 30px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.contacts-item {
+    margin-top: 10px;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.language-block {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circles {
+    display: flex;
+    gap: 5px;
+}
+
+.circle-item {
+    height: 20px;
+    width: 20px;
+    background: #41739e;
+    border-radius: 50%;
+}
+
+.circle-active {
+    background: #ffffff;
+}
+
+.language-description {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.interests {
+    margin: 30px 0;
+}
+
+.interests-list {
+    margin-left: 30px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.interests-item {
+    margin-bottom: 10px;
+}
+
+.interests-item span {
+    margin-right: 30px;
+}
+
+.block-subheader{
+    margin: 30px;
+}
+.skills{
+    margin-top: 20px;
+}
+/*-----------------------main--------------------------*/
+
+.top {
+    margin-top: 30px;
+}
+
+.name {
+    font-size: 36px;
+    color: #08345d;
+}
+
+.speciality {
+    color: #054276;
+    margin: 30px 0;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+}
+
+.info-item span {
+    margin-right: 20px;
+}
+
+.experience {
+    margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    color: #08345d;
+}
+
+.line {
+    background: #08345d;
+    height: 1px;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.header h2 i {
+    border: 1px solid #08345d;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.description {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 80px;
+}
+
+.period h4,
+.place h4 {
+    margin-bottom: 20px;
+}
+
+.place h4 {
+    color: #08345d;
+}
+
+.details {
+    list-style: none;
+}
+
+.details-item {
+    margin-bottom: 5px;
+}
+
+.details-item i {
+    margin-left: -20px;
+    margin-right: 5px;
+    color: #08345d;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.edu-line {
+    background: #08345d;
+    height: 1px;
+    width: 600px;
+    margin-top: 15px;
+}
