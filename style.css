@@ -16,6 +16,7 @@
     border: 1px solid gray;
     gap: 20px;
     border-radius: 8px;
+    font-size: 14px;
 }
 
 /*-----------------------aside--------------------*/
@@ -27,11 +28,11 @@
 
 .img-container {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .my-photo {
-    width: 150px;
+    width: 120px;
     border-radius: 10px;
 }
 
@@ -43,7 +44,7 @@
 .contacts-list {
     padding: 5px 30px;
     list-style: none;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contacts-item {
@@ -57,7 +58,7 @@
 }
 
 .language-block {
-    margin: 20px 30px;
+    margin: 10px 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +85,7 @@
 }
 
 .interests {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .interests-list {
@@ -102,39 +103,40 @@
 }
 
 .block-subheader {
-    margin: 30px;
+    margin: 10px 30px;
 }
 
 .skills {
     margin-top: 20px;
 }
 
-.qr-code{
-    margin-top: 50px;
+.qr-code {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
-.qr-code img{
+.qr-code img {
     width: 50%;
     border: 1px solid #ffffff;
     padding: 30px;
     border-radius: 20px;
 }
 
-.qr-code a{
+.qr-code a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 /*-----------------------main--------------------------*/
 
 .top {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .name {
@@ -144,7 +146,7 @@
 
 .speciality {
     color: #054276;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .info {
@@ -157,15 +159,15 @@
 }
 
 .experience {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.profile{
-    margin-top: 30px;
+.profile {
+    margin-top: 10px;
 }
 
-.profile-description{
-    margin-top: 20px;
+.profile-description {
+    margin-top: 10px;
 }
 
 .profile-line {
@@ -184,7 +186,7 @@
 .line {
     background: #08345d;
     height: 1px;
-    width: 500px;
+    width: 520px;
     margin-top: 15px;
 }
 
@@ -196,7 +198,7 @@
 }
 
 .description {
-    margin-top: 30px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 80px;
@@ -204,7 +206,7 @@
 
 .period h4,
 .place h4 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .place h4 {
@@ -226,7 +228,7 @@
 }
 
 .education {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .edu-line {
