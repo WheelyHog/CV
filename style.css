@@ -237,3 +237,41 @@
     width: 620px;
     margin-top: 15px;
 }
+
+/* ========================== projects===================== */
+.projects {
+    color: #08345d;
+}
+
+.projects-line {
+    background: #08345d;
+    height: 1px;
+    width: 530px;
+    margin-top: 15px;
+}
+
+.project_icon {
+    width: 150px;
+    text-align: center;
+}
+
+.project_icon i {
+    font-size: 90px;
+}
+
+.project_wrapper {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+.project_description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 600px;
+}
+
+.project_link {
+    color: #08345d;
+}
