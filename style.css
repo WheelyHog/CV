@@ -162,12 +162,24 @@
     margin-top: 10px;
 }
 
+.skills-list {
+    margin-top: 10px;
+}
+
+.skill-item {
+    display: flex;
+    gap: 10px;
+    max-width: 750px;
+    margin-bottom: 10px;
+}
+
 .profile {
     margin-top: 10px;
 }
 
 .profile-description {
     margin-top: 10px;
+    max-width: 750px;
 }
 
 .profile-line {
@@ -186,7 +198,7 @@
 .line {
     background: #08345d;
     height: 1px;
-    width: 520px;
+    width: 670px;
     margin-top: 15px;
 }
 
